@@ -15,6 +15,15 @@ body {
 	width: 20px;
 }
 
+.account-icon {
+	width: 50px;
+}
+
+.profile .account-icon {
+	width: 35px;
+	margin-right: 15px;
+}
+
 .container {
 	height: 100vh;
 	display: grid;
@@ -261,10 +270,17 @@ body {
 
 .trending-projects .project {
 	margin-top: 20px;
+	display: flex;
+	margin-left: 10px;
+	gap: 15px;
 }
 
 .trending-projects .project:last-child {
 	margin-bottom: 30px;
+}
+
+.project-desc .text {
+	font-size: 1em;
 }
 
 .trending-projects * {
